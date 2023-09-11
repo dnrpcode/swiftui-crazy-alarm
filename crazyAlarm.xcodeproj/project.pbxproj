@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF992A0E2AAEF79300F34F2E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF992A0D2AAEF79300F34F2E /* HomeViewModel.swift */; };
+		CF992A102AAEF90700F34F2E /* ChangeAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF992A0F2AAEF90600F34F2E /* ChangeAlarmView.swift */; };
+		CF992A122AAEF92E00F34F2E /* ChangeAlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF992A112AAEF92E00F34F2E /* ChangeAlarmViewModel.swift */; };
+		CF992A152AAF55F300F34F2E /* AlarmItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF992A142AAF55F300F34F2E /* AlarmItemView.swift */; };
 		CFDFD4982AAE0D7A00EAA2A0 /* crazyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD4972AAE0D7A00EAA2A0 /* crazyAlarmApp.swift */; };
 		CFDFD49A2AAE0D7A00EAA2A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD4992AAE0D7A00EAA2A0 /* ContentView.swift */; };
 		CFDFD49C2AAE0D7B00EAA2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFD49B2AAE0D7B00EAA2A0 /* Assets.xcassets */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF992A0D2AAEF79300F34F2E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CF992A0F2AAEF90600F34F2E /* ChangeAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAlarmView.swift; sourceTree = "<group>"; };
+		CF992A112AAEF92E00F34F2E /* ChangeAlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAlarmViewModel.swift; sourceTree = "<group>"; };
+		CF992A142AAF55F300F34F2E /* AlarmItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmItemView.swift; sourceTree = "<group>"; };
 		CFDFD4942AAE0D7A00EAA2A0 /* crazyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crazyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDFD4972AAE0D7A00EAA2A0 /* crazyAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crazyAlarmApp.swift; sourceTree = "<group>"; };
 		CFDFD4992AAE0D7A00EAA2A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF992A132AAEFE9800F34F2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CF992A142AAF55F300F34F2E /* AlarmItemView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		CFDFD48B2AAE0D7A00EAA2A0 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +75,7 @@
 		CFDFD4962AAE0D7A00EAA2A0 /* crazyAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				CF992A132AAEFE9800F34F2E /* Components */,
 				CFDFD4B12AAE13FB00EAA2A0 /* Models */,
 				CFDFD4AC2AAE111800EAA2A0 /* ViewModels */,
 				CFDFD4AB2AAE111000EAA2A0 /* Views */,
@@ -84,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				CFE8647F2AAE15B5009AB130 /* HomeView.swift */,
+				CF992A0F2AAEF90600F34F2E /* ChangeAlarmView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +109,8 @@
 		CFDFD4AC2AAE111800EAA2A0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CF992A0D2AAEF79300F34F2E /* HomeViewModel.swift */,
+				CF992A112AAEF92E00F34F2E /* ChangeAlarmViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -175,9 +195,13 @@
 			files = (
 				CFDFD4A12AAE0D7B00EAA2A0 /* Persistence.swift in Sources */,
 				CFDFD4A42AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodeld in Sources */,
+				CF992A0E2AAEF79300F34F2E /* HomeViewModel.swift in Sources */,
 				CFDFD49A2AAE0D7A00EAA2A0 /* ContentView.swift in Sources */,
 				CFDFD4982AAE0D7A00EAA2A0 /* crazyAlarmApp.swift in Sources */,
+				CF992A122AAEF92E00F34F2E /* ChangeAlarmViewModel.swift in Sources */,
 				CFE864802AAE15B5009AB130 /* HomeView.swift in Sources */,
+				CF992A152AAF55F300F34F2E /* AlarmItemView.swift in Sources */,
+				CF992A102AAEF90700F34F2E /* ChangeAlarmView.swift in Sources */,
 				CFE8647E2AAE1581009AB130 /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

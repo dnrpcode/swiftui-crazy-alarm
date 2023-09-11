@@ -8,8 +8,41 @@
 import SwiftUI
 
 struct Home: View {
+    @StateObject var viewModel = HomeViewModel()
+    @State var dummy = dummyItems
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack{
+                List(dummyItems) { alarm in
+                    AlarmItemView(item: alarm).swipeActions{
+                        Button("Delete") {
+                            viewModel.delete(id: alarm.id)
+                        }
+                        .tint(.red)
+                        Button("Edit") {
+                            viewModel.selectedItem = alarm
+                            viewModel.showingChangeAlarm = true
+                        }
+                        .tint(.blue)
+                    }
+                }
+            }
+            .navigationTitle("Crazy Alarm")
+            .toolbar{
+                Button{
+                    viewModel.showingChangeAlarm = true
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+            .sheet(isPresented: $viewModel.showingChangeAlarm) {
+                ChangeAlarmView(
+                    changeItemPresented: $viewModel.showingChangeAlarm,
+                    selectedItem: viewModel.selectedItem
+                )
+            }
+        }
     }
 }
 
