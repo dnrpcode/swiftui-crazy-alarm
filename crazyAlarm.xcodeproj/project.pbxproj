@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDFD4982AAE0D7A00EAA2A0 /* crazyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD4972AAE0D7A00EAA2A0 /* crazyAlarmApp.swift */; };
+		CFDFD49A2AAE0D7A00EAA2A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD4992AAE0D7A00EAA2A0 /* ContentView.swift */; };
+		CFDFD49C2AAE0D7B00EAA2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFD49B2AAE0D7B00EAA2A0 /* Assets.xcassets */; };
+		CFDFD49F2AAE0D7B00EAA2A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFD49E2AAE0D7B00EAA2A0 /* Preview Assets.xcassets */; };
+		CFDFD4A12AAE0D7B00EAA2A0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD4A02AAE0D7B00EAA2A0 /* Persistence.swift */; };
+		CFDFD4A42AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD4A22AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodeld */; };
+		CFE8647E2AAE1581009AB130 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8647D2AAE1581009AB130 /* Alarm.swift */; };
+		CFE864802AAE15B5009AB130 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8647F2AAE15B5009AB130 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFDFD4942AAE0D7A00EAA2A0 /* crazyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crazyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDFD4972AAE0D7A00EAA2A0 /* crazyAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crazyAlarmApp.swift; sourceTree = "<group>"; };
+		CFDFD4992AAE0D7A00EAA2A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFDFD49B2AAE0D7B00EAA2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDFD49E2AAE0D7B00EAA2A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDFD4A02AAE0D7B00EAA2A0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CFDFD4A32AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = crazyAlarm.xcdatamodel; sourceTree = "<group>"; };
+		CFE8647D2AAE1581009AB130 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		CFE8647F2AAE15B5009AB130 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDFD4912AAE0D7A00EAA2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDFD48B2AAE0D7A00EAA2A0 = {
+			isa = PBXGroup;
+			children = (
+				CFDFD4962AAE0D7A00EAA2A0 /* crazyAlarm */,
+				CFDFD4952AAE0D7A00EAA2A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDFD4952AAE0D7A00EAA2A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFD4942AAE0D7A00EAA2A0 /* crazyAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDFD4962AAE0D7A00EAA2A0 /* crazyAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFD4B12AAE13FB00EAA2A0 /* Models */,
+				CFDFD4AC2AAE111800EAA2A0 /* ViewModels */,
+				CFDFD4AB2AAE111000EAA2A0 /* Views */,
+				CFDFD4972AAE0D7A00EAA2A0 /* crazyAlarmApp.swift */,
+				CFDFD4992AAE0D7A00EAA2A0 /* ContentView.swift */,
+				CFDFD49B2AAE0D7B00EAA2A0 /* Assets.xcassets */,
+				CFDFD4A02AAE0D7B00EAA2A0 /* Persistence.swift */,
+				CFDFD4A22AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodeld */,
+				CFDFD49D2AAE0D7B00EAA2A0 /* Preview Content */,
+			);
+			path = crazyAlarm;
+			sourceTree = "<group>";
+		};
+		CFDFD49D2AAE0D7B00EAA2A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFD49E2AAE0D7B00EAA2A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFDFD4AB2AAE111000EAA2A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFE8647F2AAE15B5009AB130 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFDFD4AC2AAE111800EAA2A0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CFDFD4B12AAE13FB00EAA2A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFE8647D2AAE1581009AB130 /* Alarm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFDFD4932AAE0D7A00EAA2A0 /* crazyAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDFD4A72AAE0D7B00EAA2A0 /* Build configuration list for PBXNativeTarget "crazyAlarm" */;
+			buildPhases = (
+				CFDFD4902AAE0D7A00EAA2A0 /* Sources */,
+				CFDFD4912AAE0D7A00EAA2A0 /* Frameworks */,
+				CFDFD4922AAE0D7A00EAA2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crazyAlarm;
+			productName = crazyAlarm;
+			productReference = CFDFD4942AAE0D7A00EAA2A0 /* crazyAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDFD48C2AAE0D7A00EAA2A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CFDFD4932AAE0D7A00EAA2A0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CFDFD48F2AAE0D7A00EAA2A0 /* Build configuration list for PBXProject "crazyAlarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDFD48B2AAE0D7A00EAA2A0;
+			productRefGroup = CFDFD4952AAE0D7A00EAA2A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDFD4932AAE0D7A00EAA2A0 /* crazyAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDFD4922AAE0D7A00EAA2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFD49F2AAE0D7B00EAA2A0 /* Preview Assets.xcassets in Resources */,
+				CFDFD49C2AAE0D7B00EAA2A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDFD4902AAE0D7A00EAA2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFD4A12AAE0D7B00EAA2A0 /* Persistence.swift in Sources */,
+				CFDFD4A42AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodeld in Sources */,
+				CFDFD49A2AAE0D7A00EAA2A0 /* ContentView.swift in Sources */,
+				CFDFD4982AAE0D7A00EAA2A0 /* crazyAlarmApp.swift in Sources */,
+				CFE864802AAE15B5009AB130 /* HomeView.swift in Sources */,
+				CFE8647E2AAE1581009AB130 /* Alarm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFDFD4A52AAE0D7B00EAA2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFDFD4A62AAE0D7B00EAA2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDFD4A82AAE0D7B00EAA2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"crazyAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = YK45G98794;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dnrpcode.crazyAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFDFD4A92AAE0D7B00EAA2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"crazyAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = YK45G98794;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dnrpcode.crazyAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDFD48F2AAE0D7A00EAA2A0 /* Build configuration list for PBXProject "crazyAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDFD4A52AAE0D7B00EAA2A0 /* Debug */,
+				CFDFD4A62AAE0D7B00EAA2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDFD4A72AAE0D7B00EAA2A0 /* Build configuration list for PBXNativeTarget "crazyAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDFD4A82AAE0D7B00EAA2A0 /* Debug */,
+				CFDFD4A92AAE0D7B00EAA2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFDFD4A22AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFDFD4A32AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodel */,
+			);
+			currentVersion = CFDFD4A32AAE0D7B00EAA2A0 /* crazyAlarm.xcdatamodel */;
+			path = crazyAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFDFD48C2AAE0D7A00EAA2A0 /* Project object */;
+}
